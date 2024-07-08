@@ -1,0 +1,9 @@
+#title{
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    color: black;
+}
+
+#bg_image {
+    background-image: url("Bg_Watches.jpg");
+}
