@@ -1,0 +1,82 @@
+
+.prevent-select {
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+  
+}
+
+#bg {
+  background-image:url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+#container {
+  flex-direction:column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+             
+  }
+ 
+
+#title{
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    color: rgb(226, 232, 227);
+    text-shadow:  5px 5px #8b97a4;;
+    font-size: 5rem;
+
+}
+
+.watch {
+    width: 15rem; 
+    height: 15rem; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s; 
+}
+.name {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.watch:hover {opacity: 1}
+
+.btn {
+  background-color:transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid #5e6c67; 
+  width: 8rem;
+  height: 8rem;
+  border-radius: 3rem;
+}
+
+.btn {
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #f6fffb; 
+  color: rgb(0, 0, 0);
+}
+
+label {
+  display: block;
+  font:1rem 'Fira Sans',sans-serif;
+}
+
+input,label {
+  margin: 0.4rem 0;
+}
+
